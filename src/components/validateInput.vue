@@ -10,7 +10,6 @@
 import {defineComponent, PropType, reactive} from "vue";
 
 const reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
-
 interface RuleProp {
   type: 'required' | 'email';
   message: string
